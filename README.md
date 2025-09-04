@@ -29,15 +29,24 @@ This repository contains a complete **Machine Learning pipeline** for heart dise
 
 Heart_Disease_Project/
 │-- data/
-│   - heart_disease.csv
-│   - heart_disease_cleaned.csv
-│   - heart_disease_selected.csv
+│   ├── heart_disease.csv
+│   ├── heart_disease_cleaned.csv
+│   ├── heart_disease_selected.csv
+│
 │-- models/
-│   - final_model.pkl
+│   ├── final_model.pkl
+│
 │-- notebooks/
-│   - Heart_Disease_Full_Pipeline.ipynb
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_pca_analysis.ipynb
+│   ├── 03_feature_selection.ipynb
+│   ├── 04_supervised_learning.ipynb
+│   ├── 05_unsupervised_learning.ipynb
+│   ├── 06_hyperparameter_tuning.ipynb
+│
 │-- results/
-│   - evaluation_metrics.txt
+│   ├── evaluation_metrics.txt
+│
 │-- README.md
 │-- requirements.txt
 │-- .gitignore
